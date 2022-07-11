@@ -8,12 +8,13 @@
 int main()
 {
 	int delt=2,max_delt=0;
-	unsigned long long ans;
+	unsigned long long ans,n;
 
 	std::cout<<"Введите число:";
 	std::cin>>ans;
 	std::cout<<"\n";
-
+	
+	n=ans;
 	while(ans!=1)
 	{
 		if(ans%delt!=0)
@@ -33,6 +34,6 @@ int main()
 		}
 	}
 	
-	std::cout<<max_delt<<"\n";
+	std::cout<<"Самый большой делитель числа "<<n<<":"<<max_delt<<"\n";
 	return 0;
 }
