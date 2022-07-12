@@ -11,3 +11,15 @@ def factorial(n):
         summ=summ*i
     return summ
 
+def preobr_num(num):
+    str_num=str(num)
+    ans=[]
+    for i in str_num:
+        ans.append(i)
+    return ans
+
+def obr_preobr_num(num):
+    ans=''
+    for i in num:
+        ans=ans+i
+    return ans
